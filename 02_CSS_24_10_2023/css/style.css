@@ -16,8 +16,11 @@ p, ul, ol {
 ul, ol {
     font-weight: 600;
 }
-main, footer{
+main {
     margin: 10px 100px;
+}
+footer{
+    margin: 50px 100px;
 }
     
 footer p {
@@ -39,4 +42,8 @@ footer p {
 span {
     font-size: 20px;
     font-weight: 800;
+}
+a:hover {
+    color: #881515; 
+    border-bottom: .07em solid;
 }
