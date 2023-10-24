@@ -1,0 +1,42 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #931313;
+} 
+h2 {
+    color: #346cd4;
+}
+p, ul, ol {
+    background-color: rgb(240, 247, 209);
+    color: #c20909;
+}
+ul, ol {
+    font-weight: 600;
+}
+main, footer{
+    margin: 10px 100px;
+}
+    
+footer p {
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+    color: #000;
+}
+.myLink {
+    text-decoration: none;
+    border-bottom: 2px dashed DarkOrchid;
+    padding-bottom: 3px;
+}
+#sec2 h2 {
+    color: #10a14c;
+
+}
+span {
+    font-size: 20px;
+    font-weight: 800;
+}
