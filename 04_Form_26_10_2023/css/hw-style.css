@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: f2f2f2;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #797878;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+form {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, .1);
+}
+.form-control{
+    width: 100%;
+    border: 1px #e5e5e5 solid;
+    background: #fafafa;
+    border-radius: 3px;
+    height: 50px;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+.btn {
+    white-space: nowrap;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #fd0036;
+    background: linear-gradient(to bottom, #fd0036, #CF000F);
+    line-height: normal;
+    box-shadow: 0 1em 0.5em -0.8em rgba(0, 0, 0, 0.5);
+}
+input[type="text"] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+    padding-left: 15px;
+}
+.form_btn {
+    margin: 20px 0 30px;
+    width: 100%;
+    text-align: center;
+}
+section{
+    display: block;
+}
+.form_row {
+    margin: 0 0 15px;
+}
+.form_row .name {
+    display: block;
+    padding: 0 0 5px;
+}
