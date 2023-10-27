@@ -1,0 +1,43 @@
+.flex-container {
+    background-color: pink;
+    height: 500px;
+    width: 900px;
+
+    /* FLEX */
+    display: flex;
+    /* Свойства ниже возможны только при display: flex; */
+    /* Переносить или нет элементы на следующую строк, если они не помещаются */
+    flex-wrap: nowrap;
+    /* Принцип расположение внутренних элементов (в строку/в столбик и направление) */
+    flex-direction: row;
+    /* Расположение по вертикали */
+    align-content: space-between;
+    /* Расположение элементов относительно своей строки */
+    align-items: center;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.blue {
+    background-color: blue;
+    height: 150px;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: lightgrey;
+}
