@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    color: brown;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.btn-success {
+    margin: 10px;
+}
+
+.btn-danger {
+    margin-top: 10px;
+}
